@@ -1,0 +1,20 @@
+name: nd_care-net
+dependencies:
+    - python=3.6.9
+    - numpy
+    - pandas
+    - seaborn
+    - tabulate
+    - jupyter
+    - jupyterlab
+    - pip
+    - cudatoolkit=10.1
+    - nb_conda_kernels
+    - tqdm
+    - ipywidgets
+    - sklearn
+    - scipy
+    - pip:
+        - jupyter-repo2docker
+        - comet-ml
+        - jupyterlab-git
